@@ -1,18 +1,20 @@
-# Image Gallery
+# Gallery
 
-This is a simple image gallery that displays multiple images in a grid layout. Users can click on images to view them in a larger size.
+A simple image gallery with filtering by categories and image upload functionality.
+
+## Features
+
+* Image filtering by categories (Nature, Urban, Abstract)
+* Image upload functionality using file input
+* Image captions
 
 ## Usage
 
 1. Open `index.html` in a web browser.
-2. Click on an image to view it in a larger size.
-3. Use the `?url=` query parameter to display a specific image. For example, `index.html?url=sample1.jpg` will display the `sample1.jpg` image.
+2. Click on the 'Upload' button to upload an image.
+3. Enter a caption for the image.
+4. The image will be displayed in the gallery with its category and caption.
 
 ## Dependencies
 
 * None
-
-## Attachments
-
-* `sample1.jpg` (image/jpeg)
-* `sample2.png` (image/png)
